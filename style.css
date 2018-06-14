@@ -54,7 +54,7 @@ h1 {
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
-    -moz-transition: background-color 2s, border 2s, color 2s;
+    -moz-transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .btn-full:link,
@@ -141,7 +141,7 @@ header {
     text-transform: uppercase;
     font-size: 18px;
     border-bottom: 2px solid transparent;
-    transition: border-bottom 0.2s;
+    transition: border-bottom 0.1s;
 }
 
 .main-nav li a:hover,
