@@ -24,3 +24,9 @@ test_db:
    - node ./specs/start.js ./specs/db-postgres.spec.js
   tags:
     - docker
+deploy:
+  stage: deploy
+  script:
+  - node app.js
+  only:
+  - public
